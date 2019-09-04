@@ -1,0 +1,35 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+$fa-font-path:        "../webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+// VariablesC:\project\workerSalary\node_modules\@fortawesome\fontawesome-free\scss\fontawesome.scss
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+
+.card{
+    width: 633px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.form-spcial-user{
+    margin: auto;
+    width: 447px;
+    margin-top: 50px;
+    .spcial-user-select{
+        display: inline-block;
+        width: 400px;
+       
+    }
+    .btn-go-spcial-user{
+        float: right;
+    }
+}
+.content-wrapper,.wrapper{
+    min-height: 0 !important;
+}
